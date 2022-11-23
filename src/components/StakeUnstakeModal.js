@@ -3,10 +3,11 @@ import { useState } from 'react'
 import Web3Modal from 'web3modal'
 import { ethers } from 'ethers'
 
-import { liquiditystakingv1address } from '../config'
+import { liquiditystakingv1address, stakingtokenaddress } from '../config'
 
 import LiquidityStakingV1 from '../artifacts/contracts/liquidity/v1/LiquidityStakingV1.sol/LiquidityStakingV1.json'
-//import LiquidityStakingV1 from '../artifacts/contracts/liquidity/v1/impl/LS1Staking.sol/LS1Staking.json'
+import StakingToken from '../artifacts/contracts/liquidity/v1/LiquidityStakingV1.sol/VirtualEquityToken.json'
+
 
 export default function StakeUnstakeModal() {
     const stakeUsdt = async () => {

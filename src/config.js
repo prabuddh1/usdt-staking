@@ -1,1 +1,2 @@
-export const liquiditystakingv1address = "0x4804F52764718FCA7B56d0e219676351dFC8150E"
+export const liquiditystakingv1address = "0x214c06bd1a76B6F5502252E73f8EeCD60b8dfAA9"
+export const stakingtokenaddress = "0x28Aa37809569FB33353e6Ca6ECd213546353AC4b"
