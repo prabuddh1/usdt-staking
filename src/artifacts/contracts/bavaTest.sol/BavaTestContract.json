@@ -1,0 +1,126 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BavaTestContract",
+  "sourceName": "contracts/bavaTest.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "bool",
+          "name": "flag",
+          "type": "bool"
+        }
+      ],
+      "name": "ChangeCollateral",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "bool",
+          "name": "flag",
+          "type": "bool"
+        }
+      ],
+      "name": "Delete",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "bool",
+          "name": "flag",
+          "type": "bool"
+        }
+      ],
+      "name": "Join",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        }
+      ],
+      "name": "canLiquitate",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeCollateral",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        }
+      ],
+      "name": "join",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        }
+      ],
+      "name": "liquitate",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061023f806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806328ffe6c814610051578063443299e2146100795780634c3ec1671461009f5780639b8a642e146100c5575b600080fd5b6100776004803603602081101561006757600080fd5b50356001600160a01b03166100ff565b005b6100776004803603602081101561008f57600080fd5b50356001600160a01b0316610151565b610077600480360360208110156100b557600080fd5b50356001600160a01b031661019e565b6100eb600480360360208110156100db57600080fd5b50356001600160a01b03166101eb565b604080519115158252519081900360200190f35b6001600160a01b038116600081815260208190526040808220805460ff1916600190811790915590519092917f9e52f37ae2adae825fc17ec6fbe48b592d00194627d8dae86bd26d1801ec7bcc91a350565b6001600160a01b038116600081815260208190526040808220805460ff19169055519091907fe0e51ee6808f2474955d7b24ae11bca1ab84f448806d2c3686055e947fd8f565908390a350565b6001600160a01b038116600081815260208190526040808220805460ff19169055519091907f7aa5ec6a42d19d1d74869d78e4fdbf5479bf2133934d1b40bb6e2521087631a9908390a350565b6001600160a01b031660009081526020819052604090205460ff169056fea26469706673582212204c3136f18e039f660dbc0fcae61bbfd163f14bf0e57172b9ed0e00c3f13d026e64736f6c63430007050033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806328ffe6c814610051578063443299e2146100795780634c3ec1671461009f5780639b8a642e146100c5575b600080fd5b6100776004803603602081101561006757600080fd5b50356001600160a01b03166100ff565b005b6100776004803603602081101561008f57600080fd5b50356001600160a01b0316610151565b610077600480360360208110156100b557600080fd5b50356001600160a01b031661019e565b6100eb600480360360208110156100db57600080fd5b50356001600160a01b03166101eb565b604080519115158252519081900360200190f35b6001600160a01b038116600081815260208190526040808220805460ff1916600190811790915590519092917f9e52f37ae2adae825fc17ec6fbe48b592d00194627d8dae86bd26d1801ec7bcc91a350565b6001600160a01b038116600081815260208190526040808220805460ff19169055519091907fe0e51ee6808f2474955d7b24ae11bca1ab84f448806d2c3686055e947fd8f565908390a350565b6001600160a01b038116600081815260208190526040808220805460ff19169055519091907f7aa5ec6a42d19d1d74869d78e4fdbf5479bf2133934d1b40bb6e2521087631a9908390a350565b6001600160a01b031660009081526020819052604090205460ff169056fea26469706673582212204c3136f18e039f660dbc0fcae61bbfd163f14bf0e57172b9ed0e00c3f13d026e64736f6c63430007050033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

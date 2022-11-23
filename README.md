@@ -1,1 +1,0 @@
-# usdt-staking-frontend

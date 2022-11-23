@@ -1,0 +1,1 @@
+export const liquiditystakingv1address = "0x4804F52764718FCA7B56d0e219676351dFC8150E"
