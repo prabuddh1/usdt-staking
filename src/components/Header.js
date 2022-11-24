@@ -106,7 +106,7 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 9 }}>
+      <Box component="main" sx={{ p: 6 }}>
         <Toolbar />
         <Typography>
           Welcome to USDT Staking on MarginX. You can stake your USDT to earn rewards in FX. Stakers will receive FX proportional to their portion of the total staked USDT in the pool. To get started, connect you metamask wallet & navigate to the staking tab & stake the desired amount of USDT in the pool.
